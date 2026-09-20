@@ -1,0 +1,25 @@
+{
+  "latex-workshop.latex.autoBuild.run": "onSave",
+  "latex-workshop.latex.tools": [
+    {
+      "name": "local-pdflatex",
+      "command": "C:\\Users\\Mark\\AppData\\Local\\Programs\\MiKTeX\\miktex\\bin\\x64\\pdflatex.exe",
+      "args": ["--enable-installer", "-synctex=1", "-interaction=nonstopmode", "-file-line-error", "%DOC%"]
+    },
+    {
+      "name": "local-bibtex",
+      "command": "C:\\Users\\Mark\\AppData\\Local\\Programs\\MiKTeX\\miktex\\bin\\x64\\bibtex.exe",
+      "args": ["%DOCFILE%"]
+    }
+  ],
+  "latex-workshop.latex.recipes": [
+    {
+      "name": "Local MiKTeX (pdfLaTeX)",
+      "tools": ["local-pdflatex", "local-pdflatex"]
+    },
+    {
+      "name": "Local MiKTeX (with BibTeX)",
+      "tools": ["local-pdflatex", "local-bibtex", "local-pdflatex", "local-pdflatex"]
+    }
+  ]
+}

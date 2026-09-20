@@ -1,0 +1,7 @@
+The instructions to use the MOL (inspired by Legge et al. 2012): from  Huttner 
+and Robra-Bissantz (2017) 
+In this learning strategy, memory is built up from places and images. If we want to remember an ob
+ject, we must first imagine it as an image and then place it in a place. If we want to remember a list of 
+objects, we have to create a way out of these many places. The easiest way would be to imagine a fa
+miliar environment and place the objects in it. We can remember the objects by imagining navigating 
+through the environment and collecting the list of objects in the original order. 
