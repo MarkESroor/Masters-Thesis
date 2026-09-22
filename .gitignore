@@ -12,6 +12,5 @@
 *.synctex.gz
 *.toc
 *.xdv
-thesis.pdf
 thesis.ps
 tmp/
