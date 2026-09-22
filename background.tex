@@ -1,1 +1,112 @@
-\chapter{Background} \label{chap:backg}
+\chapter{Background and Related Work}
+\label{chap:backg}
+
+\section{Background}
+\subsection{The Method of Loci}
+The Method of Loci is a mnemonic technique that associates information with locations. A \emph{locus} is one such location, and \emph{loci} is its plural. The collection of locations is often called a memory palace. To use the technique, the learner chooses a route, associates the information with points along that route, and later follows the same route mentally to retrieve it~\cite{moll2023,reggente2020}.
+
+There are three parts to this process: the information to be remembered, a representation of that information, and the place where the representation is stored. These parts should not be confused. A chair may be part of the palace and serve as a location. An image of a whale placed on that chair may be the mnemonic representation of the target word \emph{whale}. The chair is not itself the word that the participant is being asked to remember.
+
+The route also provides an ordering structure. A learner who remembers an item but cannot remember where it belongs may succeed at free recall while making an error in ordered recall. Conversely, a learner may correctly preserve the order of a small number of recalled items while forgetting most of the list. This is why recall quantity and recall order are considered separately in the present study.
+
+\subsection{Virtual Reality and Presence}
+VR presents a computer-generated environment through which the user can look and interact. A head-mounted display provides a view that changes with the user's head movements, while controllers allow actions such as selecting, moving, and placing objects. For the MoL, this makes it possible to turn an imagined placement into a visible interaction.
+
+Immersion and presence describe related but different aspects of the experience. Immersion concerns the capabilities of the system and the sensory experience it provides. Presence concerns the user's sense of being in the virtual place. A system can offer an immersive display without every user reporting the same level of presence. Similarly, a high presence score does not directly show that the user remembered more information.
+
+Usoh et al.~\cite{usoh2000} examined presence questionnaires by comparing real and virtual experiences. Their findings caution against treating questionnaire scores as a simple objective measure that transfers unchanged across different kinds of environment. In the present study, both conditions use the same general VR medium. The questionnaire is used to describe the reported experience within that comparison, rather than to establish that the environment was indistinguishable from reality.
+
+\subsection{Familiarity and Personalisation}
+Personalisation can mean changing colours, choosing furniture, arranging a room, or recreating a known place. These actions do not necessarily have the same effect on memory. A newly designed room may express the user's preferences while remaining spatially unfamiliar. A simple reconstruction of the user's home may look less elaborate but retain a route that the user already knows.
+
+Merriman et al.~\cite{merriman2016} compared virtual routes through more and less familiar campus areas. Familiar context benefited novel-object recognition and egocentric direction memory in younger and older adults, but not every spatial measure. A separate group equally familiar with the two areas did not show the same context benefit. The result supports familiarity as a relevant design consideration. It does not demonstrate that editing a virtual room improves verbal recall, which is the more specific question investigated here.
+
+For this thesis, familiarity provides the main rationale for using a home layout. Furniture selection and editing provide a way to make that layout useful and recognisable. They also introduce agency and extra exposure, which must be considered when interpreting the personalised condition.
+
+\subsection{Cognitive Load and User Experience}
+The user must carry out several activities during a VR memory task. These include understanding the controls, navigating the environment, choosing a mnemonic image, finding a location, and learning the association. Some of this effort belongs to the memory task itself. Some comes from the way the application presents that task.
+
+The current questionnaire separates intrinsic, germane, and extraneous cognitive-load scores. In this draft, these names refer to the operational subscales used in the study workbook, rather than proof that three independent cognitive processes have been isolated. The precise source and adaptation of the administered cognitive-load instrument still require confirmation. In particular, the workbook preserves a two-item germane score and a separate three-item exploratory variant~\cite{srooranalysis}.
+
+The Intrinsic Motivation Inventory (IMI) provides another view of the experience. Its interest/enjoyment, perceived competence, and effort/importance subscales address different questions~\cite{imi}. A participant can enjoy the activity while finding it difficult. They may also feel competent without recalling more words. These measures therefore complement recall performance; they do not replace it.
+
+\section{Virtual Memory Palaces}
+\subsection{Virtual and Conventional Environments}
+Legge et al.~\cite{legge2012} investigated whether a recently learned virtual environment could support the MoL, compared with a conventional environment. Their findings showed that useful memory-palace performance did not necessarily require a long-established real-world location. This matters because it prevents an overly simple assumption that a generic virtual palace cannot work. A new environment can provide sufficient structure after familiarisation.
+
+The present study asks a different question. Both conditions provide a virtual palace, and both allow the participant to use the same general mnemonic technique. The question is whether reconstructing a personally familiar environment offers an additional advantage over the generic one under the practical conditions of the study.
+
+\subsection{Immersion Aids Recall}
+Krokos et al.~\cite{krokos2019} compared a head-mounted display with a desktop display in a memory-palace task involving faces and names. Forty participants took part. Mean recall accuracy was 84.05\% in the head-mounted-display condition and 75.24\% in the desktop condition. The absolute difference is approximately 8.81 percentage points.
+
+This study supports the possibility that the display and embodied viewing experience can affect recall. However, its manipulation was the display condition, not whether the palace represented the participant's home. Its task also differed from freely placing word cues throughout rooms. The result motivates using VR as a platform, but it cannot be used as an estimate of the effect expected from spatial personalisation.
+
+\subsection{Explicit Spatial Binding}
+Reggente et al.~\cite{reggente2020} studied the role of actively binding objects to locations. Participants experienced three virtual environments, each containing a sequence of 15 objects. The experimental group could lock objects into place, while the control group was not given that interaction. Each group contained 30 participants. The experimental group recalled 28\% more objects, despite matched exposure duration and instructions.
+
+The relevance of this work lies in the association between the item and its location. A memory-palace application should not simply display pictures inside a room. It should support the user's deliberate act of placing a cue somewhere meaningful. This informed the present system's emphasis on placement. At the same time, active placement and environment familiarity are different factors. Evidence for one does not establish the effect of the other.
+
+\subsection{Optimised Palace Design}
+Moll and Sykes~\cite{moll2023} provide the main procedural reference for this project. Their feasibility study developed a VR memory palace around design choices intended to support immersion, imagery, and the learning of the MoL. Participants could associate words with images and use an apartment-like environment for memorisation.
+
+In the first week, their reported mean recall scores increased from 62.55 to 82.91. In the second week, the reported means increased from 63.44 to 85.67. These findings support the feasibility of teaching and using the technique through a purpose-built VR application. However, they concern a comparison with traditional memorisation and repeated use of their system. They should not be treated as the expected gain from allowing a participant to recreate their home.
+
+The paper also discusses familiarity, distinct locations, and the value of meaningful imagery. These considerations are useful for the present design: rooms should be distinguishable, cues should have stable locations, and the participant should understand why each image represents its word. The present study extends this design direction by making the spatial environment itself personal to the participant.
+
+\section{Alternative Representations and Applications}
+\subsection{Augmented Reality and Virtual Reality}
+Caluya et al.~\cite{caluya2023} compared AR and VR memory palaces for second-language vocabulary acquisition, with a paper condition as a reference. Their exploratory results did not demonstrate that the AR or VR conditions outperformed the paper condition. They also examined how participants relied on prior vocabulary and semantic associations.
+
+This is useful counterevidence to the assumption that adding immersive technology automatically improves learning. A participant's strategy, the material, and the fit between training and testing all matter. In the present project, VR is chosen because the palace can be reconstructed, edited, and accessed without requiring the user to be physically inside the original home. That practical reason is distinct from claiming that VR is generally superior to AR for memory.
+
+\subsection{Two-Dimensional Images and Three-Dimensional Objects}
+Sandberg Br\"oms~\cite{broms2024} compared 2D images with 3D objects in a mixed-reality MoL application. The between-subjects study involved 20 participants and did not find a statistically significant difference in retention between the representations. The thesis also reported limitations concerning sample size, physical space, and the number of objects.
+
+This does not establish that the two representations are equivalent. It does, however, give no basis for assuming that every target word needs a custom 3D model. Images provide a practical representation for a larger range of words, while furniture and walls can still provide the spatial structure of the palace. The present study uses visual cues within that structure; it does not independently test image dimensionality.
+
+\subsection{Learning Beyond Word Lists}
+Yang et al.~\cite{yang2021} extended the memory-palace idea to knowledge retrieved from scholarly abstracts. They compared a baseline condition, an image-based palace variant, and a VR-based variant. The VR variant improved retrieval relative to the baseline and showed a more moderate improvement relative to the image-based variant. Participant feedback also expressed interest in personalisation.
+
+This work shows why memory-palace research need not end with isolated words. Nevertheless, remembering words and understanding an article are different outcomes. Word lists are useful for the present controlled comparison because each target can be identified and scored. Any claim that the system improves academic understanding would require a separate task that measures comprehension and transfer.
+
+Reddy's design thesis~\cite{reddy2025} explores AI-generated cues and AR through research-through-design and speculative design. It contributes a perspective on how memory support might be designed, rather than a controlled estimate of the benefit of personalised VR palaces. It is therefore relevant to the broader direction of this project, while remaining distinct from evidence for the current experimental comparison.
+
+\section{Authoring Personalised Environments}
+The ability to edit an environment introduces an interaction-design problem as well as a memory problem. Full automation can reduce manual work, but the generated result may not correspond to what the user intended. For a familiar home, the user knows whether a doorway is on the wrong wall or whether two rooms have been connected incorrectly.
+
+VRCopilot, developed by Zhang et al.~\cite{zhang2024}, examines generative AI as part of immersive layout authoring. It compares manual, scaffolded, and automatic creation. Its studies found that scaffolded creation supported greater agency than automatic creation, while manual creation produced the highest reported creativity and agency. These findings concern authoring experience, not memory performance.
+
+The design implication for this project is to keep generated or imported layouts editable. AI assistance can help translate an input into a starting layout, but the participant should be able to correct the result. A technically valid floor plan is not enough if it fails to preserve the structure that makes the home familiar.
+
+\section{Word Properties and Experimental Materials}
+The words used in a memory experiment are not interchangeable. Imageability, frequency, and other properties can affect performance. Madan, Glaholt, and Caplan~\cite{madan2010} showed that item properties can influence associative memory in different ways. In their paired-associate experiments, imageability was particularly related to association retrieval, while frequency was more strongly related to target-item recall.
+
+Madan's later memorability work~\cite{madan2021} examined item free-recall probabilities for a large word set. Such estimates provide a way to organise candidate words by observed memorability and examine other lexical properties. They are useful for constructing lists, but the estimated probabilities come from a different task. They are not calibrated predictions of recall after a participant has selected images and placed them in VR.
+
+This distinction became important during pilot development. Lists that appeared suitably balanced could still be too easy when combined with memorable images and spatial associations. List length, memorability, and image choices therefore need to be recorded as part of the experimental materials, rather than assuming that a single label such as \emph{hard} fully describes the task.
+
+\section{Position of the Present Study}
+Table~\ref{tab:literature} summarises the main comparisons that inform this thesis. The studies support different parts of the design. Some concern the display, others concern active placement, and others concern authoring or the representation of information. None of these factors should be substituted for another when explaining the results.
+
+\begin{table}[htbp]
+\centering
+\small
+\caption{Selected related work and its relationship to the current study.}
+\label{tab:literature}
+\begin{tabularx}{\textwidth}{@{}p{2.7cm}XX@{}}
+\toprule
+Work & Main comparison or contribution & Relevance and boundary \\
+\midrule
+Legge et al.~\cite{legge2012} & Virtual versus conventional palace environments & A newly learned palace can work; does not isolate home reconstruction. \\
+Krokos et al.~\cite{krokos2019} & Head-mounted versus desktop display & Motivates immersion; does not test personalisation. \\
+Reggente et al.~\cite{reggente2020} & Active spatial binding versus a control & Motivates deliberate placement of cues. \\
+Moll and Sykes~\cite{moll2023} & Optimised VR MoL feasibility & Informs palace design and study procedure. \\
+Merriman et al.~\cite{merriman2016} & More versus less familiar context & Supports familiarity rationale, with different memory outcomes. \\
+Zhang et al.~\cite{zhang2024} & Manual, scaffolded, and automatic VR authoring & Informs editable assistance; does not measure recall. \\
+Present study & Generic versus home-based personalised VR palace & Tests the combined familiar-layout and authoring workflow. \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+The present work brings these considerations together in one comparison: participants use both a generic palace and a palace based on their home. It examines whether the personalisation workflow is associated with different recall and experience outcomes. The comparison remains a test of the workflow as a whole, because familiarity, editing, and additional environmental exposure have not been independently manipulated.
+

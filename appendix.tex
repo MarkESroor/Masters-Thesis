@@ -5,14 +5,89 @@
 \setboolean{@twoside}{false}
 \appendixpage
 
-\chapter{Lists}
-\addcontentsline{toc}{section}{List of Abbreviations}
-\begin{acronym}[\hspace{3cm}]
-\acro{YOLO}[YOLO]{You Only Look Once}
+\chapter{Draft Completion and Source Record}
+\label{app:completion}
+\section{Purpose of This Draft}
+This first draft retains the broader proposal title while reporting the current spatial-personalisation study. Literature claims are drawn from the supplied papers and checked primary-source records. Project claims are drawn from the local protocol, proposal, development logs, and meeting notes. Numerical results refer to the workbook snapshot retrieved on 22 September 2026.
 
-\end{acronym}
+The supplied file named \emph{my template paper.pdf} contains the Moll and Sykes article also supplied under its descriptive title. It is treated as one reference, not two independent studies. The research-notes document was used to locate additional literature; its informal summaries were not treated as a substitute for the original papers. The separate linked \emph{Current Logs} Notion site could not be retrieved, so no facts are attributed to its unread contents.
+
+\section{Items to Confirm Before Submission}
+\begin{longtable}{@{}p{3.5cm}p{11.2cm}@{}}
+\caption{Information and checks required to complete the thesis.}\label{tab:completion}\\
+\toprule
+Area & Required completion \\
+\midrule
+\endfirsthead
+\toprule
+Area & Required completion \\
+\midrule
+\endhead
+Title and supervision & Confirm whether the approved broad title should remain for a thesis focused on the spatial study. The proposal names Dr. Yomna Mahmoud. Tobias Wagner's involvement is documented in meeting logs, but his formal title-page designation needs confirmation. \\
+Participants & Add recruitment, total recruited, demographics, eligibility, compensation, withdrawals, and the pilot/main-study boundary. \\
+Ethics and consent & Add the actual institutional review status, consent process, data handling, and discomfort/withdrawal procedure. Do not substitute generic statements for the procedure used. \\
+Apparatus & Record the headset and controller models, study location, application build, Unity version, locomotion settings, and relevant display/performance configuration. \\
+Materials & Archive the exact ordered word lists and image options used by each session. Establish which versions belong in the final primary comparison. \\
+Preparation & Confirm layout conversion format and workflow for the study build, creation time, furniture guidance, and any assistance given by the researcher. \\
+Procedure & Confirm encoding and recall durations per version, whether recall was spoken or entered by participants, questionnaire timing, and whether the palace was visible during recall. \\
+Counterbalancing & Reconstruct actual condition order and list assignment separately; report counts for each realised schedule. \\
+Follow-ups & Verify the actual delay windows, delivery method, response instructions, rehearsal rules, and incomplete follow-up reasons. \\
+Questionnaires & Verify the exact forms, cognitive-load source, endpoint coding, reverse scoring, creation-load measure, and legacy IPQ treatment. \\
+Data quality & Resolve six reported blocking errors and 130 unreviewed, uncounted responses, then rerun the workbook and inspect its approval status. \\
+Implementation evidence & Add screenshots from the actual study build and verify implementation details against the Unity source. The functional diagrams in this draft are not application screenshots. \\
+Final reporting & Update all tables, abstract values, discussion, and conclusions from the same approved dataset. Review acknowledgments and the unsigned declaration. \\
+\bottomrule
+\end{longtable}
+
+\section{Recorded Protocol Changes}
+\begin{table}[H]
+\centering
+\small
+\caption{Selected milestones used to reconstruct the evolving study. Dates identify log entries rather than independently verified deployment dates.}
+\begin{tabularx}{\textwidth}{@{}p{2.5cm}X@{}}
+\toprule
+Record & Evidence \\
+\midrule
+Early protocol & 30 words, 15-minute encoding, IPQ presence, and a 24-hour follow-up~\cite{sroorprotocol}. \\
+17 July 2026 & 20-word lists with five easy, ten moderate, and five hard words; revised image-search ideas and wall editing~\cite{logjuly17}. \\
+27 July 2026 & Customisation before either condition; break and cognitive-load assessment after creation~\cite{meetingjuly27}. \\
+10--12 August 2026 & Recommendation and logged change to SUS presence; switching lists between conditions~\cite{meetingaug10,logaug12}. \\
+13 August 2026 & 25-word balanced lists with ten easy, ten medium, and five hard words~\cite{logaug13}. \\
+Local revised notes & 25 low-memorability words, ten-minute encoding, questionnaires before five-minute verbal recall. Exact start of use remains to be verified. \\
+22 September 2026 & Analysis snapshot includes Condition List, Memory List, and Hard Memory List records; data-quality approval remains blocked~\cite{srooranalysis}. \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\section{Numerical Reproducibility}
+The file \path{data/results_snapshot_2026-09-22.json} records the aggregate key results and the recall fields needed to check their arithmetic. Participant identifiers in this local file are pseudonymous. It contains neither participant names nor raw response text.
+
+Running \path{verify_snapshot.py} with Python checks complete-pair counts, trial accuracy denominators, condition means, paired differences, paired $t$ statistics, and $d_z$ for the three recall timepoints. The script uses only the Python standard library. It does not re-adjudicate responses, validate exclusions, or independently recalculate the workbook's $p$ values and confidence intervals.
+
+The spreadsheet tabs used for this draft are \emph{V3 Start Here}, \emph{V3 Key Results}, \emph{V3 Data Quality}, \emph{V3 Recall Trials}, \emph{V3 Session Order}, and \emph{V3 Data Dictionary}. The supplied deep link's numeric tab identifier was absent from the current metadata; the named tabs were resolved from the workbook rather than guessed.
+
+\chapter{Lists}
+\section*{List of Abbreviations}
+\addcontentsline{toc}{section}{List of Abbreviations}
+\begin{tabular}{ll}
+AI & Artificial Intelligence \\
+AR & Augmented Reality \\
+CI & Confidence Interval \\
+CSV & Comma-Separated Values \\
+HMD & Head-Mounted Display \\
+IMI & Intrinsic Motivation Inventory \\
+IPQ & Igroup Presence Questionnaire \\
+JSON & JavaScript Object Notation \\
+LCS & Longest Common Subsequence \\
+MoL & Method of Loci \\
+SD & Standard Deviation \\
+SUS & Slater--Usoh--Steed presence questionnaire \\
+VR & Virtual Reality \\
+\end{tabular}
 \clearpage
 \listoffigures
 \addcontentsline{toc}{section}{List of Figures}
-% \listoftables
-% \addcontentsline{toc}{section}{List of Tables}
+\clearpage
+\listoftables
+\addcontentsline{toc}{section}{List of Tables}
+

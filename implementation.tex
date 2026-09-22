@@ -1,1 +1,107 @@
-\chapter{Implementation}\label{chap:implementation}
+\chapter{System Design and Implementation}
+\label{chap:implementation}
+
+\section{Design Goals}
+The system was designed to let users create a memory palace without first learning a general-purpose 3D modelling application. The required operations follow the memory task: prepare a space, identify useful locations, associate content with those locations, and revisit the associations.
+
+The first design goal was to preserve recognisable spatial structure. For a home-based palace, the connection between rooms can be more useful than fine visual detail. A familiar doorway in the wrong place changes the route that the participant expects to follow. Layout editing therefore has a direct role in the memory task, rather than being only a cosmetic feature.
+
+The second goal was to make placement deliberate and understandable. The user should be able to choose an image, relate it to a word, and place it at a location. This follows the emphasis on explicit spatial binding in previous MoL research~\cite{reggente2020}. The interaction should make the association clear without requiring complicated controller operations.
+
+The third goal was to allow revision. Imported layouts and selected furniture may need correction, and a placed cue may need to be moved. The work logs document iterative improvements to wall editing, furniture movement, rotation, deletion, and menu placement~\cite{logdec18,logjuly17}. These operations allow users to recover from mistakes during preparation.
+
+Finally, the system needed to support an experiment as well as an individual learning session. Conditions, word lists, saved environments, and recorded results must remain identifiable. A visually successful session is insufficient if its recall file cannot later be linked to the correct target list.
+
+\section{System Overview}
+The prototype is implemented in Unity~\cite{meetingjan2026}. Figure~\ref{fig:system} shows the functional workflow reconstructed from the development logs. It is a description of the main data and interaction stages, not a class diagram or an assertion about uninspected source-code modules.
+
+\begin{figure}[htbp]
+\centering
+\begin{tikzpicture}[
+box/.style={draw,rounded corners,align=center,text width=5.0cm,minimum height=1.15cm,font=\small},
+node distance=0.65cm and 0.9cm,
+arr/.style={-{Latex},thick}]
+\node[box] (layout) {Home sketch\\Assisted layout preparation};
+\node[box,right=of layout] (content) {Word-list content\\Titles and candidate images};
+\node[box,below=of layout] (edit) {Wall and furniture editing\\Review, correct, and save};
+\node[box,below=of content] (cues) {Content selection\\Choose a mnemonic representation};
+\node[box,below=1.0cm of edit,xshift=2.95cm] (vr) {VR memorisation activity\\Place cues and rehearse the route};
+\node[box,below=of vr] (analysis) {Recall and questionnaire records\\Validation and paired analysis};
+\draw[arr] (layout)--(edit);
+\draw[arr] (content)--(cues);
+\draw[arr] (edit)--(vr);
+\draw[arr] (cues)--(vr);
+\draw[arr] (vr)--(analysis);
+\end{tikzpicture}
+\caption{Functional overview of the documented workflow. Analysis includes records collected outside the VR application.}
+\label{fig:system}
+\end{figure}
+
+The spatial environment and the learning content play different roles. Walls and furniture define the palace. Word cues define the current material. Keeping these concepts separate makes it possible, in principle, to use a saved palace for a different list without rebuilding the home. Whether repeated reuse introduces interference between lists is a separate question for evaluation.
+
+\section{Creating the Spatial Environment}
+\subsection{Home Layout Input}
+The revised protocol begins with a participant's sketch of their home. The local notes describe using ChatGPT to convert that sketch into a CSV representation that can be imported into the application. Earlier work logs also record experimentation with mapping a board to walls and with assisted room and furniture placement~\cite{logboard,lognov28}.
+
+The purpose of assistance is to reduce the manual work needed to reach an editable starting point. It does not remove the need for review. A sketch can leave room dimensions ambiguous, omit door openings, or contain lines that are not walls. The participant's inspection is therefore part of the preparation workflow: the reconstructed space must correspond to the place they intend to use.
+
+The exact layout-file schema and the conversion workflow used by each study build remain to be documented from the implementation. The CSV description in the protocol refers to layout input, whereas the JSON example in the April development log refers to mnemonic content. These should not be presented as contradictory descriptions of one file type.
+
+\subsection{Wall Editing}
+The July development log documents extensions to the wall maker, including drawing and editing operations, moving walls, a room operation, and a 3D camera view~\cite{logjuly17}. These features address a basic problem with reconstructed spaces: users need to correct the geometry in terms they understand.
+
+A room-based operation can make it easier to express a large part of the floor plan, while individual wall operations allow local corrections. Viewing the result in three dimensions helps connect the drawn layout with the environment that the user will later navigate. The goal is a recognisable and usable palace, rather than an architecturally precise digital model.
+
+This distinction also affects measurement. The workbook's layout metrics use grid units and graph structure. They should not be reported as floor area, metres travelled, or other physical quantities without a verified scale and corresponding measurements~\cite{srooranalysis}.
+
+\subsection{Furniture Placement and Persistence}
+The December development log records a furniture menu, editing of placed furniture, and saving and loading both furniture placement and wall layout~\cite{logdec18}. The documented edit operations include moving, rotating, and deleting items.
+
+Furniture provides landmarks within otherwise similar rooms. It also gives the participant places at which to position mnemonic cues. The revised study guidance of approximately five items per room attempts to balance recognisability with preparation effort. More furniture is not automatically better: it can increase the number of distinct locations, but can also make placement and navigation more difficult.
+
+Saving the environment allows the authoring stage to end before the memory comparison begins. It also provides a record of the environment used. For reproducibility, the saved layout should be linked to the participant and condition in the session data. An environment that cannot be linked unambiguously to a session cannot safely be used in participant-level geometry analyses.
+
+\section{Representing and Placing Mnemonic Content}
+\subsection{Content Import}
+The 13 April log documents a scrollable menu that imports entries from JSON and loads associated images~\cite{logapril13}. The recorded entry structure includes an image filename, a title, and a description. The following simplified example follows that documented structure:
+{\small
+\begin{verbatim}
+{
+  "entries": [
+    {
+      "imageFile": "stack.png",
+      "title": "Stack",
+      "description": "A last-in, first-out data structure."
+    }
+  ]
+}
+\end{verbatim}
+}
+The example demonstrates that the content representation can hold a concept and a short explanation. It does not demonstrate that learning computer-science concepts was evaluated in the present experiment. The reported study uses word lists.
+
+\subsection{Image Alternatives}
+The July log describes generating three distinct ideas per word so that the image options do not all depict the same interpretation. The August log likewise records three picture-search queries for each word~\cite{logjuly17,logaug13}. The documented workflow therefore supports variety in candidate imagery.
+
+This should not be described as proof that the final images were generated by an image model. Generating search ideas, retrieving pictures, and synthesising pictures are different operations. The exact image provider, selection rules, and licensing information should be added from the final study build.
+
+Offering alternatives gives the participant a chance to choose a cue that makes sense to them. That choice is relevant because the cue should support an association with the target word. An attractive image is not useful if the participant interprets it as a different object. Ambiguous cues can also complicate recall scoring when a response describes the selected picture rather than matching the target word exactly.
+
+\subsection{Placement and Interaction}
+The development logs document work on locus placement and subsequent revisions to that interaction~\cite{logmarch13,logmay15}. Together with the study protocol, they establish that selecting and placing cues is part of the user task. The precise controller mappings, attachment behaviour, and locus ordering should be confirmed against the actual study build before a final implementation specification is written.
+
+Menu positioning was one practical concern. The July log reports moving the menu closer to the player and reducing its size because it could be hidden behind furniture~\cite{logjuly17}. This matters to the experimental task: time spent finding a hidden menu is time unavailable for building associations. Interface difficulty can also raise cognitive-load ratings independently of palace familiarity.
+
+No quantitative usability improvement is claimed from this change. The log establishes that the issue was identified and addressed during development, not that a controlled comparison measured the effect of the fix.
+
+\section{Recording the Experiment}
+The analysis workbook combines recall records, questionnaire data, and Quest event metrics~\cite{srooranalysis}. Recall records contain condition and list information, response sequences, nominal timepoints, target references, and, for timed trials, explicit duration fields. These fields make it possible to inspect how a score was produced rather than relying only on a manually entered total.
+
+The dictionary distinguishes event-based mode durations from cumulative totals. Cumulative timing rows are retained for audit but excluded from condition timing totals. It also notes that transition-spanning intervals can be assigned to the condition active at the end of the mode. This is a material limitation if timing is later used to explain differences between conditions.
+
+The same caution applies to geometric metrics. A straight-line route joining loci is not the distance the participant actually travelled. Wall-length totals in grid units are not measurements in metres. The present results therefore concentrate on the directly defined recall and questionnaire outcomes; they do not infer navigation efficiency from those proxy measures.
+
+\section{Implementation Boundaries}
+The documented system supports the central steps needed for the current study: environment preparation, correction, furnishing, saving, content selection, and spatial placement. The evidence available for this chapter consists of the protocol and development records. The thesis folder does not contain the Unity source code or final application screenshots, so exact algorithms, class names, software versions, and performance figures are not invented here.
+
+The wider proposal also includes content segmentation, generated visual mnemonics, and auditory cues. Some development records demonstrate content-import capability and exploration of generative tools. However, a planned or prototyped feature is not the same as a feature used in every experimental session. The present evaluation concerns the spatial-personalisation workflow. Separate studies would be needed to determine the contribution of the other proposed components.
+

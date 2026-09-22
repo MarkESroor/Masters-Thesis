@@ -2,6 +2,16 @@
 
 This folder contains Mark Sroor's GUC master's thesis template and source files.
 
+The first full draft focuses on personalised versus generic VR memory palaces.
+It retains the proposal title and records outstanding study details in Appendix A.
+Results are a provisional 22 September 2026 snapshot: the source workbook flags
+six blocking errors and 130 unreviewed, uncounted responses. Do not treat the
+draft results as a final approved analysis.
+
+The pseudonymous numerical snapshot is in `data/results_snapshot_2026-09-22.json`.
+Run `python verify_snapshot.py` to verify the recall summary arithmetic against
+the included trial scores. This does not resolve source-data quality issues.
+
 ## Build
 
 The entry point is `thesis.tex`. From this directory, run:

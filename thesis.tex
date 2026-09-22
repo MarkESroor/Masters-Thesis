@@ -2,6 +2,9 @@
 
 \usepackage[headings]{fullpage}
 \usepackage{setspace}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{longtable}
 
 
 % \usepackage[top=1.5cm,right=1.5cm,bottom=1.5cm,left=1.5cm]{geometry}
@@ -21,7 +24,7 @@
 \usepackage{multirow}
 \usepackage{booktabs}
 \usepackage{appendix}
-\usepackage[pdfborder={0 0 0}, colorlinks=true, linkcolor=black, citecolor=blue]{hyperref}
+\usepackage[pdfborder={0 0 0}, colorlinks=true, linkcolor=black, citecolor=blue, urlcolor=black]{hyperref}
 \usepackage[printonlyused]{acronym}
 % Optional algorithm support; loaded when the package is installed.
 \IfFileExists{algpseudocode.sty}{\usepackage{algpseudocode}}{}
@@ -36,17 +39,19 @@
 \usepackage{tikz}
 \usetikzlibrary{arrows.meta,positioning}
 
-\newcommand{\submissionDay}{day}
-\newcommand{\submissionMonth}{month}
+\newcommand{\submissionDay}{22}
+\newcommand{\submissionMonth}{September}
 \newcommand{\submissionYear}{2026}
-\newcommand{\submissionDate}{\submissionDay~\submissionMonth,~\submissionYear}
-\newcommand{\typeOfThesis}{Masters Thesis}
+\newcommand{\submissionDate}{Working draft -- \submissionMonth~\submissionYear}
+\newcommand{\typeOfThesis}{Master's Thesis -- First Draft}
 
-\newcommand{\titleOfThesisOne}{Enter your title here}
+\newcommand{\titleOfThesisOne}{Personalized Multimodal Mnemonics in Immersive VR Memory Palaces: Design and Experimental Evaluation of Space, Content, Visual, and Auditory Mnemonics Personalization}
 
-\newcommand{\authorOfThesis}{Masters student}
-\newcommand{\supervisorOne}{Supervisor one}
-\newcommand{\supervisorTwo}{Supervisor two} 
+\newcommand{\authorOfThesis}{Mark Emeel Sroor}
+\newcommand{\supervisorOne}{Dr. Yomna Mahmoud}
+\newcommand{\supervisorTwo}{Tobias Wagner (advisory role; confirm designation)}
+\newcommand{\draftnote}[1]{\par\noindent\textbf{Draft note:} \textit{#1}\par}
+\setlength{\emergencystretch}{2em}
 
 \newcommand{\includefig}[4]{
     \begin{figure}[ht]
@@ -85,11 +90,11 @@
 	/Title (\titleOfThesisOne)
 	/Subject (\typeOfThesis)
 	/Keywords ()
-	/CreationDate (D:20090707085533)
 }
 \fi
 
 \begin{document}
+\renewcommand{\bibname}{References}
 % \overfullrule=5pt
 \pagestyle{plain}
 \pagenumbering{Roman}
@@ -120,8 +125,10 @@
 \include{conclusion}
 \include{appendix}
 
+\cleardoublepage
+\phantomsection
+\addcontentsline{toc}{chapter}{References}
 \bibliographystyle{unsrt}
 \bibliography{bibliography}
-\addcontentsline{toc}{chapter}{References}
 
 \end{document}

@@ -1,12 +1,168 @@
-\chapter{Methodology}\label{chap:imp}
+\chapter{Methodology}
+\label{chap:imp}
 
+\section{Study Design}
+The study compares two ways of using the same general VR memory-palace workflow. In the generic condition, referred to as Condition A in the protocol notes, the participant uses a predefined environment. In the personalised condition, referred to as Condition B, the participant uses an environment based on their home. Both conditions involve placing and memorising word cues.
 
-Pilot development
-The experiment was refined through an initial pilot phase. The first pilot used 30 highly imageable words; however, the participant achieved perfect immediate recall, suggesting that the materials were insufficiently challenging. The word lists were subsequently drawn from a memorability-scored word dataset and initially balanced across easy, medium, and hard items. As recall performance remained high, list length was increased to 25 words. The final lists consisted of 25 low-memorability words, which produced a more suitable level of difficulty.
-Early sessions also showed that the original questionnaire battery was overly long. The presence measure was therefore replaced with a shorter version to reduce participant burden.
-Final experimental protocol
-Before attending the session, participants were asked to draw a simple wall layout of their home. This layout was converted into a CSV file using a custom ChatGPT workflow and imported into the VR application.
-At the beginning of the session, participants received an introduction to the method of loci. They then completed a short training task designed to familiarise them with the VR controls, the generic virtual environment, and the process of placing words at locations. During this task, participants memorised a short list of five words.
-Participants next created their personalised virtual environment using their home layout. They could review and correct the imported wall layout if necessary, then furnished each room with approximately five items. This limit was intended to keep the customisation stage manageable while encouraging natural room-based grouping during recall. After saving their environment, participants took a short break and completed the first cognitive-load questionnaire.
-The main task used a within-subjects design with two conditions: a generic environment (Condition A) and a personalised environment (Condition B). Two word lists were used, List 1 and List 2. Condition order and list assignment were counterbalanced: participants completed either the generic or personalised condition first, and each list was paired with each condition across participants. This produced four counterbalancing combinations: A.1/B.2 and B.1/A.2.
-For each condition, participants had 10 minutes to place and memorise the assigned 25-word list in the relevant virtual environment. Recall was then delayed while participants completed questionnaires measuring cognitive load, enjoyment, perceived competence, and presence. Participants were subsequently given five minutes to verbally recall the word list. Following a short break, they completed the same procedure in the remaining condition with the other word list.
+A within-subjects design was used so that each participant could serve as their own comparison. This reduces the extent to which differences in general memory ability explain differences between conditions. However, it also introduces possible practice, fatigue, and carry-over effects. The procedure therefore planned to vary condition order and word-list assignment across participants.
+
+The account in this chapter draws on the local methodology notes, dated work and meeting logs, and the structure of the current analysis workbook~\cite{sroorlogs,srooranalysis}. These sources describe different stages of the study. The early protocol page lists 30 words and 15 minutes of memorisation, while the local revised protocol lists 25 words and 10 minutes. We report this development explicitly instead of presenting the revised procedure as if it applied to every collected session.
+
+\section{Participants and Apparatus}
+The current workbook contains complete immediate-recall data for 18 paired participants. This is an analysis count, not a verified statement of the total number recruited. Follow-up and questionnaire counts differ because some outcomes are missing or unresolved. Recruitment method, demographic distribution, eligibility criteria, compensation, withdrawals, and the separation between pilot and main-study participants have not yet been reconciled in the materials used for this draft.
+
+The application was developed in Unity, as documented in the January supervisory meeting, and used a VR headset and controllers~\cite{meetingjan2026}. The available work logs describe builds for the headset, but the exact headset model and study-build version are not specified in the fetched proposal. These details should be recorded from the actual study equipment rather than inferred from the devices used by reference papers or the earlier bachelor's project.
+
+\draftnote{Before submission, add the recruitment and demographic description, hardware model, Unity and application versions, locomotion configuration, study location, consent procedure, and ethics approval or applicable institutional review status. No approval identifier is asserted in this draft.}
+
+\section{Pilot Development}
+\subsection{Task Difficulty}
+The local methodology notes report that an early pilot used 30 highly imageable words and produced perfect immediate recall. Such a result is useful for checking whether the participant understands the task, but provides little room to detect improvement. The materials were subsequently revised using word memorability estimates.
+
+The work log dated 17 July 2026 describes a 20-word arrangement with five easy, ten moderate, and five hard words~\cite{logjuly17}. The 13 August log then describes two 25-word lists, each containing ten easy, ten medium, and five hard words. The reported mean memorability estimates were 0.742430 and 0.742425. The same entry states that architecture and location words were excluded and that lists were balanced on memorability, concreteness, word length, syllables, and frequency~\cite{logaug13}.
+
+Later local notes describe a move to 25 low-memorability words. The current workbook contains three named sets: \emph{Condition List}, \emph{Memory List}, and \emph{Hard Memory List}. Its included recall records use 20 targets for the Condition List and 25 for the other two sets. This confirms that the snapshot is not restricted to one final materials version.
+
+The distinction matters for the analysis. Dividing correct responses by list length makes the scores comparable as proportions, but does not remove differences in difficulty. A shorter list with easier words is still a different task. The final study report should identify the intended main-study cohort and show whether conclusions change when earlier versions are excluded.
+
+\subsection{Questionnaire Burden}
+The initial protocol included the Igroup Presence Questionnaire (IPQ). The 10 August meeting notes recommend a shorter presence questionnaire and switching the word lists between conditions across tests~\cite{meetingaug10}. The 12 August work-log title records the change to the Slater--Usoh--Steed (SUS) presence questionnaire~\cite{logaug12}.
+
+Here, SUS means the six-item presence measure, not the System Usability Scale. The distinction is necessary because both instruments use the same abbreviation. The workbook retains legacy IPQ fields separately and flags unresolved endpoint scoring. The two instruments are not combined into one presence score.
+
+\subsection{Separating Creation from Memorisation}
+The 27 July meeting notes place customisation before both experimental conditions, with a break and cognitive-load assessment after customisation~\cite{meetingjuly27}. This separates the effort of creating the palace from the effort of memorising the words. It also means that the participant has already spent time inside or working on the personalised environment before the condition comparison begins.
+
+This arrangement helps avoid placing the entire authoring task between the two memory conditions. Nevertheless, it does not equalise environmental exposure. The generic palace is encountered during training, while the personalised palace receives additional attention during construction. That difference is retained as a limitation of the workflow comparison.
+
+\section{Revised Experimental Procedure}
+Figure~\ref{fig:procedure} summarises the revised procedure recorded in the local notes. The timing below describes that version; per-session deviations must be checked against session records.
+
+\subsection{Preparation and Training}
+Before attending, participants were asked to draw a simple wall layout of their home. The local protocol describes a custom ChatGPT workflow that converted this drawing into a CSV file for import. Participants could review and correct the imported layout. This step was intended to reduce the effort of building the environment from an empty scene.
+
+At the start of the session, the participant received an explanation of the MoL and an opportunity to ask questions. Training then introduced the VR controls, the generic environment, and cue placement. A short five-word task allowed the participant to practise the technique before the main memorisation task.
+
+The participant then prepared the personalised palace, correcting the walls where necessary and furnishing the rooms. The local notes recommend approximately five furniture items per room to keep this stage manageable and encourage room-based grouping. This was a preparation guideline, not a claim that every room contained exactly five items. After saving the environment, the participant took a short break and completed the first cognitive-load questionnaire.
+
+\subsection{Encoding and Recall}
+For each condition in the revised procedure, the participant had ten minutes to place and memorise the assigned 25-word list. The participant then completed questionnaires covering cognitive load, enjoyment, perceived competence, and presence before recalling the words. The local notes specify up to five minutes for verbal recall.
+
+The workbook labels this first recall as \emph{Immediate}. In procedural terms it follows the questionnaires, so it is not a zero-delay test. The exact interval between encoding and recall may vary with questionnaire completion time. This should be reported when session timing has been reconstructed.
+
+After a short break, the participant completed the other condition with the other list. Follow-up records in the workbook are labelled \emph{Delayed24h} and \emph{Delayed1Week}. These are nominal categories. Their labels alone do not establish that each test occurred at precisely 24 hours or seven days. The final report should specify follow-up delivery, permitted timing windows, and whether any rehearsal or access to cues was controlled.
+
+\begin{figure}[htbp]
+\centering
+\begin{tikzpicture}[
+box/.style={draw,rounded corners,align=center,text width=11.3cm,minimum height=0.95cm,font=\small},
+node distance=0.42cm,
+arr/.style={-{Latex},thick}]
+\node[box] (prep) {Home sketch and layout preparation};
+\node[box,below=of prep] (train) {MoL introduction and five-word VR training};
+\node[box,below=of train] (custom) {Review home layout, furnish, save\\Break and creation-load questionnaire};
+\node[box,below=of custom] (one) {First assigned condition\\10-minute encoding, questionnaires, up to 5-minute recall};
+\node[box,below=of one] (two) {Break, then the other condition with the other list\\Same encoding, questionnaire, and recall sequence};
+\node[box,below=of two] (later) {Nominal 24-hour and one-week follow-up recall};
+\draw[arr] (prep)--(train);
+\draw[arr] (train)--(custom);
+\draw[arr] (custom)--(one);
+\draw[arr] (one)--(two);
+\draw[arr] (two)--(later);
+\end{tikzpicture}
+\caption{Revised procedure reconstructed from the local protocol and supervisory notes. Earlier sessions used different materials; actual follow-up timing remains to be verified.}
+\label{fig:procedure}
+\end{figure}
+
+\subsection{Condition Order and List Assignment}
+Condition order and list assignment are separate design factors. Reversing the order of the conditions does not, by itself, ensure that each word list is used equally often in each condition. Table~\ref{tab:counterbalance} gives the four schedules implied by crossing two condition orders with two list assignments.
+
+\begin{table}[htbp]
+\centering
+\caption{Intended counterbalancing structure, not verified allocation counts. G denotes generic and P denotes personalised.}
+\label{tab:counterbalance}
+\begin{tabular}{lll}
+\toprule
+Schedule & First condition & Second condition \\
+\midrule
+1 & G, List 1 & P, List 2 \\
+2 & G, List 2 & P, List 1 \\
+3 & P, List 1 & G, List 2 \\
+4 & P, List 2 & G, List 1 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+The original local prose describes four combinations but abbreviates them ambiguously. The workbook's session-order diagnostic currently has zero complete pairs. Consequently, the table expresses the intended design and does not claim that those schedules were achieved in balanced numbers. Condition codes, list identifiers, and actual presentation order need to be reconciled independently before order effects can be evaluated.
+
+\section{Outcome Measures}
+\subsection{Recall Accuracy and Quantity}
+Let $C_{ict}$ be the number of unique correctly recalled targets for participant $i$, condition $c$, and timepoint $t$, and let $L_{ict}$ be that trial's target-list length. Recall accuracy is
+\begin{equation}
+A_{ict}=\frac{C_{ict}}{L_{ict}}.
+\end{equation}
+A target contributes at most once to $C_{ict}$. Repeating a correct word does not increase the score. Raw quantity is also retained because it expresses the result in words, but it should not be interpreted without considering the list length.
+
+The workbook distinguishes omissions, intrusions, repetitions, and responses awaiting review. Its reported number of words recalled is retained for audit, while the score is computed from the responses and the resolved target list. Unapproved near matches are not silently counted as correct. Missing trials are left missing rather than scored as zero~\cite{srooranalysis}.
+
+\subsection{Recall Order}
+The analysis includes the length of the longest common subsequence (LCS) between the target order and the sequence of first matched responses. Dividing by target-list length gives
+\begin{equation}
+O_{ict}=\frac{\operatorname{LCS}(\text{target sequence},\text{matched response sequence})}{L_{ict}}.
+\end{equation}
+This measures how much of the original sequence was recovered in order while allowing omissions. For example, for targets A, B, C, D, responses A, C, D yield an LCS of three. Responses D, C, A contain the same three items but preserve less of the target sequence.
+
+Kendall's order measure is also recorded for recalled items. It describes relative ordering within that recalled subset. It should be considered alongside accuracy, because correctly ordering a small subset is not the same as remembering the full list. Undefined order statistics remain missing.
+
+\subsection{Retention and Recall Duration}
+Retention change is calculated as later accuracy minus immediate accuracy for the same participant, condition, list set, and ordered targets. A negative value indicates lower recall at the follow-up. This calculation uses matched longitudinal records rather than subtracting group means from different participant subsets.
+
+Recall duration is available only when an explicit valid duration is present and the trial is marked as timed. The workbook does not infer duration from arbitrary timestamps for untimed trials. Longer recall can mean that a participant continued searching, recovered more items, or struggled with retrieval. It is therefore not automatically classified as a worse outcome.
+
+\subsection{Questionnaires}
+Table~\ref{tab:measures} summarises the main scoring definitions in the workbook. Items are represented on a seven-point scale. Where signed responses were used, the workbook first converts them using $x+4$; reverse-scored items then use $8-x$. A subscale is computed only when all required items are valid~\cite{srooranalysis}.
+
+\begin{table}[htbp]
+\centering
+\small
+\caption{Questionnaire scoring definitions in the current analysis workbook.}
+\label{tab:measures}
+\begin{tabularx}{\textwidth}{@{}p{5.3cm}rX@{}}
+\toprule
+Measure & Items & Scoring detail \\
+\midrule
+IMI interest/enjoyment & 7 & Mean; items 3 and 4 reversed. \\
+IMI perceived competence & 6 & Mean; item 6 reversed. \\
+IMI effort/importance & 5 & Mean; items 2 and 5 reversed. \\
+SUS presence & 6 & Mean; distinct from legacy IPQ and the System Usability Scale. \\
+Intrinsic cognitive load & 2 & Mean of the two recorded items. \\
+Germane cognitive load & 2 & Main definition; three-item variant kept exploratory. \\
+Extraneous cognitive load & 3 & Mean of the three recorded items. \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+These definitions describe how the present workbook produces scores. They do not replace verification against the exact questionnaire forms administered. Internal consistency estimates and the separate creation-load results are not reported in this draft because they have not been verified from a reconciled item-level dataset.
+
+\section{Analysis Approach}
+For each outcome, the comparison uses participants with a valid score in both conditions. The paired difference is defined consistently as
+\begin{equation}
+d_i=X_{i,\mathrm{personalised}}-X_{i,\mathrm{generic}}.
+\end{equation}
+The workbook calculates the mean difference $\bar d$, the standard deviation of differences $s_d$, and a paired $t$ statistic:
+\begin{equation}
+t=\frac{\bar d}{s_d/\sqrt{n}},\qquad d_z=\frac{\bar d}{s_d}.
+\end{equation}
+The 95\% confidence interval uses the $t$ distribution with $n-1$ degrees of freedom. The paired effect size $d_z$ uses the variability of within-participant differences, not the pooled standard deviation of the two condition scores.
+
+The workbook also provides Wilcoxon signed-rank results. Its dictionary specifies conditional sign permutation for up to 50 nonzero differences, with tied midranks and zero differences omitted only from that signed-rank calculation. Zero differences remain in the descriptive paired sample. This is useful because the recall scores are bounded and some participants have identical scores in the two conditions.
+
+The workbook labels immediate accuracy as primary and 24-hour accuracy as the primary follow-up. These are reporting priorities in the analysis file; a dated preregistration was not established from the available sources. Other recall, questionnaire, and exploratory outcomes should not be searched selectively for favourable results. The present draft reports the stored statistics as unadjusted provisional outputs rather than presenting them as a final confirmatory test.
+
+\section{Data Reconciliation and Validity}
+The snapshot's run is marked complete, but its interpretation gate is blocked. Completing calculations and approving the underlying records are different steps. Six blocking errors and 130 unreviewed, uncounted responses remain. The visible error rows include duplicated eligible questionnaire records. An error count is not a count of affected participants, because one unresolved record can affect several subscales.
+
+Before final analysis, the records need to establish participant identity, condition, list version, session order, target sequence, timepoint, and the retained response record. The final analysis should also distinguish main-study sessions from pilot sessions. Participant names have been omitted from the thesis tables and the local numerical snapshot uses pseudonymous identifiers.
+
+The principal threats to validity are unequal exposure to the environments, changes in materials across sessions, missing follow-up outcomes, unresolved scoring decisions, and an incomplete reconstruction of condition order. These limits are not resolved by a paired statistical test. They determine what the test can reasonably be said to compare.
+
