@@ -1,0 +1,4 @@
+.clasp.json
+.claspignore
+*.ps1
+*.bat
