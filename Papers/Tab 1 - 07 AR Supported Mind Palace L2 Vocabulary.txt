@@ -1,0 +1,15 @@
+Category tabs: Tab 1
+Title: AR-Supported Mind Palace for L2 Vocabulary Recall
+Citation: Alexia Larchen Costuchen, José María Font Fernández, and Minos Stavroulakis, 2022, International Journal of Emerging Technologies in Learning, 17(13). DOI: 10.3991/ijet.v17i13.25073
+Source: https://doi.org/10.3991/ijet.v17i13.25073
+PDF in Papers: Yes — AR-Supported Mind Palace for L2 Vocabulary Recall.pdf.
+
+Abstract (paraphrased):
+MnemoRoom4U is an Android AR tool that lets language learners place virtual notes containing words and translations onto real objects along a familiar route. The work describes the system and evaluates learners’ experience using a design-science approach.
+
+Most important findings:
+- Participants found the tool intuitive and motivating, though setup and practice took longer than the comparison methods.
+- The evaluation was qualitative and small; the authors explicitly caution that the post-test observations do not support strong numerical claims about vocabulary retention.
+
+Future work:
+They propose adding personalized imagery and pronunciation, broadening language and learner groups, and running larger quantitative studies of delayed vocabulary retention.

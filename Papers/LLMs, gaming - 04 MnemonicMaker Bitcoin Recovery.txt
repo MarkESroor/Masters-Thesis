@@ -1,0 +1,15 @@
+Category tabs: LLMs, gaming
+Title: MnemonicMaker: A Serious Game for Reconstructing Bitcoin Wallet Mnemonic Phrases
+Citation: Vlahavas et al., 2025, International Journal of Serious Games.
+Source: https://journal.seriousgamessociety.org/index.php/IJSG/article/view/911
+PDF in Papers: Yes — MnemonicMaker Serious Game for Bitcoin Recovery Phrases.pdf.
+
+Abstract (paraphrased):
+MnemonicMaker turns BIP-39 wallet recovery phrases into routes in a game-like environment. The study compares this spatial-mnemonic game with traditional memorization for remembering recovery phrases.
+
+Most important findings:
+- Thirty-eight participants took part in a two-month study. After 60 days, the game group had significantly better phrase-recovery success than the control group.
+- The sample was small and relatively homogeneous, and no real funds were at stake, so the result should not be taken as a security guarantee.
+
+Future work:
+The authors suggest testing other mnemonic tools, larger and more varied groups, phrases longer than 12 words, and standardized usability measures.

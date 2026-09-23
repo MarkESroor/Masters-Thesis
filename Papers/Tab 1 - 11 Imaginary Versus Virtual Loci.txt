@@ -1,0 +1,15 @@
+Category tabs: Tab 1
+Title: Imaginary Versus Virtual Loci: Evaluating the Memorization Accuracy in a Virtual Memory Palace
+Citation: Jan-Paul Huttner, David Pfeiffer, and Susanne Robra-Bissantz, 2018, HICSS. DOI: 10.24251/HICSS.2018.037
+Source: https://doi.org/10.24251/HICSS.2018.037
+PDF in Papers: Yes — Imaginary Versus Virtual Loci.pdf.
+
+Abstract (paraphrased):
+This study examines how the material to be learned should be represented in a virtual memory palace: shown directly in the environment or imagined by the learner, as in traditional Method-of-Loci use.
+
+Most important findings:
+- The authors’ stated conclusion favors embedding learning content in the environment when designing virtual versions of the technique.
+- The abstract does not report an effect size; avoid turning this design recommendation into a broad claim that virtual loci always outperform imagined loci.
+
+Future work:
+The paper recommends further testing of how content placement and interaction design affect memorization accuracy.

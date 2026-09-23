@@ -1,0 +1,15 @@
+Category tabs: Tab 1
+Title: Immersive Ars Memoria: Evaluating the Usefulness of a Virtual Memory Palace
+Citation: Jan-Paul Huttner, Kathrin Robbert, and Susanne Robra-Bissantz, 2019, HICSS Proceedings.
+Source: https://aisel.aisnet.org/hicss-52/cl/teaching_and_learning_technologies/10/
+PDF in Papers: No — the official AIS page is accessible, but its PDF download endpoint returned 403 Forbidden.
+
+Abstract (paraphrased):
+The study tests both learning performance and users’ willingness to adopt a VR memory-palace tool. It uses an experiment plus correlation and regression analyses to examine whether learning success relates to perceived usefulness and intention to use.
+
+Most important findings:
+- The authors report significant correlations between learning success and factors related to users’ intention to use a virtual memory palace.
+- The result concerns performance and adoption-related measures; correlation does not show that usefulness perceptions cause improved learning.
+
+Future work:
+The authors call for continued refinement of usability and accessibility to support practical, sustained use in learning contexts.

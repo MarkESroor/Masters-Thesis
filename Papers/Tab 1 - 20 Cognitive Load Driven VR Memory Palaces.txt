@@ -1,0 +1,15 @@
+Category tabs: Tab 1
+Title: Cognitive Load-Driven VR Memory Palaces: Personalizing Focus and Recall Enhancement
+Citation: Li and Deng, 2025, arXiv preprint arXiv:2506.02700.
+Source: https://arxiv.org/abs/2506.02700
+PDF in Papers: Yes — Cognitive Load-Driven VR Memory Palaces.pdf.
+
+Abstract (paraphrased):
+The authors used EEG beta activity to estimate cognitive-load profiles for ten participants and adjusted VR-space variables to personalize the experience. The aim was to support focus in a VR memory-palace setting.
+
+Most important findings:
+- Eight of ten participants showed increased beta activity in the personalized condition.
+- Beta activity is a focus-related proxy, not a direct test of whether participants remembered more. The paper therefore does not establish a memory-retention gain, despite its title.
+
+Future work:
+The authors recommend a larger and more varied sample, direct long-term memory measures, real-world learning trials, and further exploration of adaptive AI-based personalization.

@@ -1,0 +1,15 @@
+Category tabs: Mnemonics
+Title: Interpretable Mnemonic Generation for Kanji Learning via Expectation-Maximization
+Citation: Lee, Scarlatos, and Lan, 2025, EMNLP.
+Source: https://aclanthology.org/2025.emnlp-main.1294/
+PDF in Papers: Yes — Interpretable Mnemonic Generation for Kanji Learning.pdf.
+
+Abstract (paraphrased):
+The paper proposes an interpretable generation method that learns compositional rules from mnemonics written by learners and uses those rules to produce cues for kanji characters.
+
+Most important findings:
+- In cold-start settings, the EM-based method sometimes outperformed baselines and produced mnemonics more aligned with learner-authored examples.
+- The evaluation is about generated-mnemonic quality, using an automated language-model evaluator; it does not establish better long-term kanji retention in learners.
+
+Future work:
+The authors propose human evaluation, testing more generation models, and estimating individual learner preferences from small amounts of feedback or preference surveys.

@@ -1,0 +1,16 @@
+Category tabs: LLMs, gaming (supplemental paper from Papers folder)
+Title: VRCopilot: Authoring 3D Layouts with Generative AI Models in VR
+Citation: Lei Zhang, Jin Pan, Jacob Gettig, Steve Oney, and Anhong Guo, 2024, ACM UIST. DOI: 10.1145/3654777.3676451
+Source: https://doi.org/10.1145/3654777.3676451
+PDF in Papers: Yes — VRCopilot_ Authoring 3D Layouts with Generative AI Models in.pdf.
+
+Abstract (paraphrased):
+VRCopilot combines voice, pointing, and drawn wireframes with generative models so people can create and revise 3D room layouts while working inside VR.
+
+Most important findings:
+- Generative suggestions can help with inspiration, but automatic generation can reduce user agency and produce layouts with weaker circulation and daylighting.
+- Scaffolded creation, where users sketch a structure and then refine it with AI, gave users more control than automatic generation. Manual co-creation produced the strongest agency and creativity ratings.
+- This is relevant to generative interface design, not a memory or learning-outcomes study.
+
+Future work:
+The authors discuss applying the interaction ideas to other spatial authoring tasks and improving control and refinement of generated layouts.

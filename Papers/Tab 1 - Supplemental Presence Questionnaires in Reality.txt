@@ -1,0 +1,15 @@
+Category tabs: Tab 1 (supplemental paper from Papers folder)
+Title: Using Presence Questionnaires in Reality
+Citation: Martin Usoh, Ernest Catena, Sima Arman, and Mel Slater, 2000, Presence: Teleoperators and Virtual Environments. DOI: 10.1162/105474600566989
+Source: https://doi.org/10.1162/105474600566989
+PDF in Papers: Yes — Papers\questionnaires\Using_Presence_Questionnaires_in_Reality.pdf.
+
+Abstract (paraphrased):
+The authors tested whether two presence questionnaires distinguish a real office experience from a VR simulation of the same office. Ten people completed a search task in each environment group.
+
+Most important findings:
+- The Slater-Usoh-Steed questionnaire scored only marginally higher in the real environment; the Witmer-Singer questionnaire showed no significant real-versus-virtual difference.
+- The authors question whether these scales can fairly compare experiences across real and virtual environments, although they may still be useful when everyone uses the same type of environment.
+
+Future work:
+Further work should validate presence measures across environments and avoid treating a higher questionnaire score as a direct measure of learning or memory.

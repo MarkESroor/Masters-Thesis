@@ -1,0 +1,15 @@
+Category tabs: Tab 1
+Title: A Virtual Reality Memory Palace Variant Aids Knowledge Retrieval from Scholarly Articles
+Citation: Yalong Yang et al., 2020, IEEE VIS / IEEE Transactions on Visualization and Computer Graphics.
+Source: https://vis.cs.brown.edu/docs/pdf/Yang-2020-VRM.pdf
+PDF in Papers: Yes — A Virtual Reality Memory Palace Variant Aids Knowledge Retrieval from Scholarly Articles.pdf.
+
+Abstract (paraphrased):
+The paper adapts the memory-palace idea to information from scholarly articles. It compares ordinary study, an image-based palace, and an immersive VR palace for learning facts from research abstracts.
+
+Most important findings:
+- The VR memory-palace condition improved later retrieval compared with the baseline study condition.
+- It also showed a moderate advantage over the image-based palace. Participants wanted more control over how information and visual cues were arranged.
+
+Future work:
+The authors identify personalization as a key direction, including letting learners choose or adjust placements, organization, and palace features.

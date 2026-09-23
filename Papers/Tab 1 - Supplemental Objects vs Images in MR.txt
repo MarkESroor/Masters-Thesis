@@ -1,0 +1,15 @@
+Category tabs: Tab 1 (supplemental paper from Papers folder)
+Title: Objects vs Images for Method of Loci in Mixed Reality: Comparing the Efficacy of Using 3D Objects Against 2D Images in the Method of Loci
+Citation: Samuel Sandberg Bröms, 2024, KTH master's thesis.
+Source: https://kth.diva-portal.org/
+PDF in Papers: Yes — Objects vs Images for Method of Loci in Mixed Reality.pdf.
+
+Abstract (paraphrased):
+This thesis compares memory-palace items represented as 3D models with items represented as 2D images in a mixed-reality task. It reports a between-subject study with 20 participants.
+
+Most important findings:
+- The study did not find a statistically significant memory difference between the 2D and 3D conditions.
+- The small sample, restricted physical space, and limited set of objects mean that the null result does not establish that the formats are equivalent.
+
+Future work:
+The thesis recommends a larger study, testing more objects and space, adding interaction, animation or sound, and comparing mixed reality with virtual reality.

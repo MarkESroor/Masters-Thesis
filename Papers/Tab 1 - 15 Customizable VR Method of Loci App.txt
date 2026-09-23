@@ -1,0 +1,15 @@
+Category tabs: Tab 1
+Title: A Customizable Virtual Reality Application for Enhancement of Method of Loci
+Citation: Randika Madhushan Perera, E. A. I. Priyanga, B. P. De Silva, K. R. R. Karunarathne, H. M. P. P. Jayarathna, and S. H. D. Senanayake, 2019.
+Source: https://uvawellassa-uni.com/ircuwu2019/docs/Proceedings.pdf
+PDF in Papers: A one-page conference poster abstract is saved as A Customizable Virtual Reality Application for Enhancement of Method of Loci.pdf. No full article-length PDF was available.
+
+Abstract (paraphrased):
+The authors describe a mobile VR memory-palace application built with Unity and Google Cardboard. It lets users store information along a palace path and is intended to make the technique more approachable through customization.
+
+Most important findings:
+- The available version is a poster abstract about a prototype; it does not report a controlled memory-performance evaluation.
+- Claims about comfort or improved recall should therefore be treated as proposed benefits rather than measured findings.
+
+Future work:
+The authors planned to add user-selected palace templates and preferences, then evaluate the system in broader educational or therapeutic settings.

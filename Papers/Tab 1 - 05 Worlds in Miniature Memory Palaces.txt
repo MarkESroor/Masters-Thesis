@@ -1,0 +1,15 @@
+Category tabs: Tab 1; LLMs, gaming
+Title: Enhancing Recognition Memory in Virtual Memory Palaces Using Worlds-in-Miniature
+Citation: Junhyeok Lee and Kang Hoon Lee, 2025, Applied Sciences, 15(5), 2304. DOI: 10.3390/app15052304
+Source: https://doi.org/10.3390/app15052304
+PDF in Papers: Yes — Enhancing Recognition Memory Using Worlds-in-Miniature.pdf.
+
+Abstract (paraphrased):
+The authors combine a procedurally generated VR memory palace with a Worlds-in-Miniature overview map. The map shows the whole palace and the learner’s position, with the goal of making unfamiliar virtual spaces easier to navigate while memorizing images.
+
+Most important findings:
+- Forty participants memorized 30 images and completed immediate, 7-day, and 14-day recognition tests.
+- The WIM interface significantly helped immediate recognition, especially for people with lower initial performance. The difference between conditions narrowed over delayed tests, so the evidence for lasting benefit is weaker.
+
+Future work:
+The authors recommend larger samples, more realistic spaces and distinctive landmarks, multisensory cues, repeated learning, and tracking how teleportation affects spatial encoding.

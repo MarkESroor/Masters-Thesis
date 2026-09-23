@@ -1,0 +1,15 @@
+Category tabs: Tab 1
+Title: The Art of Loci: Immerse to Memorize
+Citation: Anne Vetter, Daniel Götz, and Sebastian von Mammen, 2020.
+Source: https://downloads.hci.informatik.uni-wuerzburg.de/Vetter2020aa.pdf
+PDF in Papers: Yes — The Art of Loci - Immerse to Memorize.pdf.
+
+Abstract (paraphrased):
+The paper presents a VR serious-game prototype in which learners can turn study material into visual mind maps and try mnemonic strategies, including memory palaces. It also discusses the learning principles behind the game’s design.
+
+Most important findings:
+- The main contribution is the prototype and its design rationale, not a controlled demonstration of better recall.
+- It is useful as an example of how to lower the entry barrier to spatial mnemonics through guided interaction.
+
+Future work:
+The proposed next step is to evaluate whether the game helps novices learn and use the technique, and whether it improves delayed memory performance.

@@ -1,0 +1,15 @@
+Category tabs: Tab 1
+Title: Simulating a Mixed Reality Memory Palace
+Citation: Matthew Rossman, 2020, University of Massachusetts Amherst honors thesis.
+Source: https://old.mattrossman.com/file/honors-thesis.pdf
+PDF in Papers: No — the author-hosted PDF timed out during download.
+
+Abstract (paraphrased):
+The thesis describes a prototype that uses spatial-computing hardware to bring memory-palace cues into the user’s real environment. It also outlines a psychological experiment that could guide the design of immersive learning tools.
+
+Most important findings:
+- The prototype demonstrates a possible mixed-reality implementation, but the thesis does not report results from the planned controlled memory experiment.
+- Treat it as a design and research-plan contribution, not evidence of improved recall.
+
+Future work:
+The proposed next step is to conduct the planned experiment and use its results to refine the mixed-reality experience.

@@ -1,0 +1,15 @@
+Category tabs: Mnemonics (supplemental paper from Papers folder)
+Title: The Influence of Item Properties on Association-Memory
+Citation: Christopher R. Madan, Mackenzie G. Glaholt, and Jeremy B. Caplan, 2010, Journal of Memory and Language, 63, 46–63. DOI: 10.1016/j.jml.2010.03.004
+Source: https://doi.org/10.1016/j.jml.2010.03.004
+PDF in Papers: Yes — imaginable words.pdf.
+
+Abstract (paraphrased):
+The study tests whether word imageability and frequency help paired-associate recall only by improving memory for individual words or also by strengthening the association between paired words.
+
+Most important findings:
+- Imageability primarily improved retrieval of the association between the paired words.
+- Word frequency mainly improved retrieval of the target item itself. Forward and backward cue performance were strongly correlated, supporting holistic learning of pairs.
+
+Future work:
+The paper does not emphasize a single future-study agenda in its abstract. It is useful as background on how vivid visual representations can strengthen associations, but it is not a Method-of-Loci or AI study.

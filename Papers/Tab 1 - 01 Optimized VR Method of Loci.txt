@@ -1,0 +1,15 @@
+Category tabs: Tab 1
+Title: Optimized virtual reality-based Method of Loci memorization techniques through increased immersion and effective memory palace designs: a feasibility study
+Citation: Brigham Moll and Ed Sykes, 2022 (journal issue 2023), Virtual Reality. DOI: 10.1007/s10055-022-00700-z
+Source: https://doi.org/10.1007/s10055-022-00700-z
+PDF in Papers: Yes — Optimized virtual reality-based Method of Loci memorization.pdf. my template paper.pdf is a duplicate copy of this same paper.
+
+Abstract (paraphrased):
+The authors designed a highly immersive VR memory palace to make the Method of Loci easier to learn and use. A feasibility study tested whether short training and a purpose-built palace could improve recall of non-spatial material.
+
+Most important findings:
+- In the first week, the 21 participants who completed the task recalled about 20.4% more words after using the VR method than at baseline; on a second use, 17 participants recalled about 22.2% more.
+- The results support feasibility, but the small convenience sample and lack of controls separating VR effects from Method-of-Loci effects limit generalization.
+
+Future work:
+The authors suggest larger studies, longer training, and testing other palace designs and sensory cues. They also recommend separating the contribution of immersion from the mnemonic technique itself.

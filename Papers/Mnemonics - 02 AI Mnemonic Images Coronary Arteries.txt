@@ -1,0 +1,16 @@
+Category tabs: Mnemonics
+Title: AI-Generated Mnemonic Images Improve Long-Term Retention of Coronary Artery Occlusions in STEMI: A Comparative Study
+Citation: Zahraa Alomar, Meize Guo, and Tyler Bland, 2025, Technologies, 13(6), 217. DOI: 10.3390/technologies13060217
+Source: https://doi.org/10.3390/technologies13060217
+PDF in Papers: Yes — AI-Generated Mnemonic Images Improve Long-Term Retention.pdf (open preprint version).
+
+Abstract (paraphrased):
+The authors used DALL-E 3 to create mnemonic images overlaid on ECG diagrams to help first-year medical students learn coronary-artery occlusion patterns in STEMI.
+
+Most important findings:
+- The study involved 275 first-year medical students across six campuses; 40 received the mnemonic-image intervention and 235 received standard ECG diagrams.
+- The intervention group’s scores on the relevant exam item remained stable over time while control scores declined. Students also reported higher situational interest in the mnemonic images.
+- The accessible local PDF is the March 2025 preprint; the published article may differ in detail.
+
+Future work:
+The authors recommend larger, more diverse and longitudinal studies, testing additional medical topics and different mnemonic-image styles.

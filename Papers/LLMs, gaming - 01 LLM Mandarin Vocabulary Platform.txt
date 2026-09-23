@@ -1,0 +1,15 @@
+Category tabs: LLMs, gaming
+Title: A Large Language Model-Infused Platform for Blending Spaced Repetition and Immersion in Mandarin Vocabulary Acquisition
+Citation: Hume, 2024.
+Source: https://conference.pixel-online.net/ICT4LL/files/ict4ll/ed0017/FP/9480-ICT6929-FP-ICT4LL17.pdf
+PDF in Papers: Yes — A Large Language Model-Infused Platform for Mandarin Vocabulary Acquisition.pdf.
+
+Abstract (paraphrased):
+The paper describes an LLM-assisted Mandarin learning platform that turns learner-provided text, audio, images, or spreadsheets into Anki flashcards. Cards can include examples, audio, etymology-based mnemonics, radicals, classifiers, and related words.
+
+Most important findings:
+- This is a system and design description; it does not report a controlled test showing that LLM-generated cards improve vocabulary retention.
+- Its contribution is combining spaced-repetition scheduling with contextual and multimedia learning materials.
+
+Future work:
+The platform needs empirical evaluation against standard Anki or other learning approaches, including delayed retention, content accuracy, and learner experience.

@@ -1,0 +1,16 @@
+Category tabs: Mnemonics
+Title: Designing Personalized Multimodal Mnemonics With AI: A Medical Student’s Implementation Tutorial
+Citation: Noor Elabd et al., 2025, JMIR Medical Education, 11, e67926. DOI: 10.2196/67926
+Source: https://doi.org/10.2196/67926
+PDF in Papers: No — the publisher/PMC pages exposed the article text, but direct PDF downloads were blocked by the site's JavaScript/robot check.
+
+Abstract (paraphrased):
+The tutorial gives medical students a workflow for creating text mnemonics with ChatGPT and visual mnemonic images with DALL-E 3, including prompts, personalization, iteration, and quality checks.
+
+Most important findings:
+- Across six medical concepts, the authors report an initial acceptable-output rate of 85%, rising to 95% after refinement.
+- This is a generation tutorial, not a human learning trial; it measures whether outputs met the authors’ criteria, not whether students remembered more.
+- Human review is important because generated medical content may contain errors or unclear imagery.
+
+Future work:
+The authors call for work on ethical use, privacy, bias, and studies that measure whether these tools improve real learner outcomes.

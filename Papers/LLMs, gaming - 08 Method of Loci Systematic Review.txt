@@ -1,0 +1,16 @@
+Category tabs: LLMs, gaming
+Title: The Method of Loci in the Context of Psychological Research: A Systematic Review and Meta-analysis
+Citation: Jan Ondřej, 2025, British Journal of Psychology, 116(4), 930–986. DOI: 10.1111/bjop.12799
+Source: https://doi.org/10.1111/bjop.12799
+PDF in Papers: No — the full text is available in PMC/HTML, but the publisher PDF request returned 403 and the PMC PDF endpoint did not return a PDF.
+
+Abstract (paraphrased):
+This review and meta-analysis assesses the Method of Loci in adult recall, its cognitive mechanisms, and its neurobiological correlates.
+
+Most important findings:
+- The meta-analysis reports a large average benefit for immediate serial recall over rehearsal (d = 0.88).
+- The evidence also has substantial heterogeneity, publication bias, and small-study effects; the authors rate evidence quality as low to very low and advise caution about the apparent effect size.
+- The review summarizes consistent involvement of spatial-memory and navigation regions, including hippocampal and parahippocampal areas.
+
+Future work:
+The paper emphasizes the need for more rigorous, less biased studies and stronger evidence across populations and memory tasks.

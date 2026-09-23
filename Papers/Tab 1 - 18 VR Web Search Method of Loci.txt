@@ -1,0 +1,15 @@
+Category tabs: Tab 1; LLMs, gaming
+Title: Method of Loci in VR Web Search: Memory Retention Support by Organizing Search Results in a VR Room
+Citation: Yumiho Takeuchi, Yoshiyuki Shoji, and Martin J. Dürst, 2023, HCII Proceedings.
+Source: https://shoji-lab.jp/research_paper/HCII2023_takeuchi_VR_Browsing.pdf
+PDF in Papers: Yes — Method of Loci in VR Web Search - Organizing Browsing History.pdf.
+
+Abstract (paraphrased):
+The authors built a browser for VR where people can place and arrange search-result windows in a room. They compared four layouts, including plain and colored rooms and a realistic room with furniture, and checked recall one week later.
+
+Most important findings:
+- The paper reports that participants using realistic, furniture-filled rooms remembered more search details after a week.
+- This corrects the document’s conflicting note that colored walls were best. The study was small and the result should be treated as exploratory.
+
+Future work:
+Further tests could compare layout cues and domain-specific organization, and measure whether spatial browsing reduces repeated searches or improves task productivity.

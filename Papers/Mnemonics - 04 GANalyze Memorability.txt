@@ -1,0 +1,15 @@
+Category tabs: Mnemonics
+Title: GANalyze: Toward Visual Definitions of Cognitive Image Properties
+Citation: Phillip Goetschalckx et al., 2019, CVPR.
+Source: https://arxiv.org/abs/1906.10112
+PDF in Papers: Yes — GANalyze Visual Definitions of Cognitive Image Properties.pdf.
+
+Abstract (paraphrased):
+GANalyze uses generative adversarial networks to alter images along directions associated with cognitive properties such as memorability, aesthetics, and emotional valence. The goal is to make abstract image properties visually interpretable.
+
+Most important findings:
+- Behavioral experiments found that generated changes along the learned memorability direction can causally affect how well people remember images.
+- This is a method for studying memorable image properties, not a mnemonic-generation or memory-palace study.
+
+Future work:
+The paper’s contribution is primarily methodological; it does not set out a specific learning-intervention agenda. A relevant next step for your topic would be to test whether memorability-oriented images help when embedded in a memory palace. That is a suggested application, not a result of this paper.

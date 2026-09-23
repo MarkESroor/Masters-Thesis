@@ -1,0 +1,15 @@
+Category tabs: Tab 1
+Title: Walkable Graph: An Immersive Augmented Reality Interface for Performing the Memory Palace Method
+Citation: Rocco Raso, Johannes Lahann, Peter Fettke, and Peter Loos, 2019, AMCIS Proceedings.
+Source: https://aisel.aisnet.org/amcis2019/human_computer_interact/human_computer_interact/10/
+PDF in Papers: No — the AIS page is accessible, but the PDF download endpoint returned 403 Forbidden.
+
+Abstract (paraphrased):
+The authors propose an AR interface that overlays graph paths on a real floor so learners can physically walk a route while associating information with locations. The paper outlines an experiment comparing this approach with a printed-medium control.
+
+Most important findings:
+- This is a proposal and interface description, not a completed experiment. It provides no measured evidence that walking the graph improves recall.
+- Embodied movement is a rationale for the design, not a tested outcome in this paper.
+
+Future work:
+The proposed next step is the empirical comparison, including AR walking, VR navigation, and conventional study conditions.

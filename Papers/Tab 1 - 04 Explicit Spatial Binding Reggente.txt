@@ -1,0 +1,15 @@
+Category tabs: Tab 1; LLMs, gaming
+Title: The Method of Loci in Virtual Reality: Explicit Binding of Objects to Spatial Contexts Enhances Subsequent Memory Recall
+Citation: Nicco Reggente, Joey K. Y. Essoe, Hera Younji Baek, and Jesse Rissman, published online 2019 / in journal 2020. DOI: 10.1007/s41465-019-00141-8
+Source: https://doi.org/10.1007/s41465-019-00141-8
+PDF in Papers: Yes — The Method of Loci in Virtual Reality_ Explicit Binding of Objects to Spatial Contexts Enhances Subsequent Memory Recall.pdf.
+
+Abstract (paraphrased):
+The researchers built three VR memory palaces and compared learning with explicit object placement against a control condition without the same place-and-lock interaction. Participants learned sequences of 3D objects.
+
+Most important findings:
+- The experimental group included 30 people and the control group 30. Explicitly associating objects with locations improved later recall, supporting the role of spatial binding in the Method of Loci.
+- The task measured immediate recall, so it does not establish long-term retention effects.
+
+Future work:
+The authors call for studies that separate spatial placement from the extra attention and choice involved in clicking objects into place, and for delayed retention tests.

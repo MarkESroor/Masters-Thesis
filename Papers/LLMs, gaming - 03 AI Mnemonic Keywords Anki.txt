@@ -1,0 +1,15 @@
+Category tabs: LLMs, gaming
+Title: Fostering Vocabulary Memorization: Exploring the Impact of AI-Generated Mnemonic Keywords on Vocabulary Learning Through Anki Flashcards
+Citation: Agnes and Srinivasan, 2024, World Journal of English Language.
+Source: https://www.sciedupress.com/journal/index.php/wjel/article/view/25258
+PDF in Papers: Yes — AI-Generated Mnemonic Keywords in Anki Flashcards.pdf.
+
+Abstract (paraphrased):
+This study tests whether LLM-generated mnemonic keywords added to Anki flashcards help students learn English vocabulary compared with ordinary flashcards.
+
+Most important findings:
+- The study reports stronger vocabulary outcomes for the group receiving AI-generated mnemonic keywords after repeated practice.
+- The evidence comes from a specific course context and short study period; it does not by itself establish durable gains across languages or learner groups.
+
+Future work:
+The authors point toward testing delayed retention and other learning contexts, and refining the quality and relevance of generated keyword associations.

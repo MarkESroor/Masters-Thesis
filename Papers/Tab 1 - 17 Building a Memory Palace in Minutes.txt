@@ -1,0 +1,15 @@
+Category tabs: Tab 1; LLMs, gaming
+Title: Building a Memory Palace in Minutes: Equivalent Memory Performance Using Virtual Versus Conventional Environments with the Method of Loci
+Citation: Eric L. G. Legge, Christopher R. Madan, Enoch T. Ng, and Jeremy B. Caplan, 2012, Journal of Experimental Psychology: Learning, Memory, and Cognition.
+Source: https://www.psych.ualberta.ca/~cml/papers/Legge_et_al_2012.pdf
+PDF in Papers: Yes — Building a Memory Palace in Minutes - Virtual vs Conventional Environments.pdf.
+
+Abstract (paraphrased):
+The study asks whether a quickly created virtual environment can serve as a useful memory palace compared with a familiar or imagined conventional environment. Participants used the Method of Loci to learn word lists.
+
+Most important findings:
+- With participants who followed the instructed strategy, memory performance was broadly equivalent between virtual and conventional environments.
+- The result suggests that a useful spatial structure can matter more than photorealistic appearance. Strategy compliance affected the analysis.
+
+Future work:
+The paper recommends measuring whether participants actually use the mnemonic, since non-compliance can hide or distort differences between conditions.

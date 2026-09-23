@@ -1,0 +1,15 @@
+Category tabs: Tab 1
+Title: From Method of Loci to Digital Mnemonics: AI, AR, and the Future of Memory
+Citation: Samarth Reddy, 2025, OCAD University master's thesis.
+Source: https://openresearch.ocadu.ca/id/eprint/4639/1/Reddy_Samarth_2025_MDES_DGIF_Thesis.pdf
+PDF in Papers: Yes — From Method of Loci to Digital Mnemonics_ AI, AR, and the Future of Memory.pdf.
+
+Abstract (paraphrased):
+The thesis uses research-through-design and speculative design to explore how AI-generated cues and AR experiences might support memory. It develops and reflects on several prototypes rather than testing a single validated intervention.
+
+Most important findings:
+- The work offers design concepts and reflections about how spatial memory, generated cues, and real-world AR could interact.
+- Its conclusions are exploratory; the prototypes do not establish that an AI/AR system improves learning or long-term recall.
+
+Future work:
+The thesis calls for empirical testing with diverse learners, more complete prototypes, and closer attention to privacy, accuracy, personalization, and real-world use.

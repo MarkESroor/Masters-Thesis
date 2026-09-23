@@ -1,0 +1,14 @@
+Category tabs: LLMs, gaming
+Title: Investigating the Impact of the Method of Loci on Vocabulary Memorization
+Citation: The document attributes this work to the University of M'Sila repository; author, date, and complete citation could not be verified.
+Source supplied in the document: https://repository.univ-msila.dz/items/0e9bb2c2-1dfd-4e19-8764-5b7900d7cba6/full
+PDF in Papers: No — the supplied repository record was inaccessible and an exact-title search did not confirm the item.
+
+Abstract (paraphrased from the document tab only; not independently verified):
+The tab describes a study of the Method of Loci for teaching vocabulary to primary-school pupils, comparing it with usual classroom approaches.
+
+Most important findings:
+- The tab says the authors reported better memorization and recall, but the underlying abstract and study details could not be retrieved. This finding is unverified and should not be cited as established evidence until the original record is checked.
+
+Future work:
+The tab proposes larger controlled studies with delayed tests and age-appropriate guidance. I could not verify whether these recommendations are stated by the original authors.

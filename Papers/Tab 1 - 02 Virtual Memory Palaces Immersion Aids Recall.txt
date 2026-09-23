@@ -1,0 +1,15 @@
+Category tabs: Tab 1
+Title: Virtual Memory Palaces: Immersion Aids Recall
+Citation: Eric Krokos, Catherine Plaisant, and Amitabh Varshney, 2019 (online publication 2018), Virtual Reality. DOI: 10.1007/s10055-018-0346-3
+Source: https://doi.org/10.1007/s10055-018-0346-3
+PDF in Papers: Yes — immersion aids recall.pdf.
+
+Abstract (paraphrased):
+The study tested whether using a memory palace in a head-mounted VR display helps people remember information better than using the same kind of environment on a desktop display.
+
+Most important findings:
+- Forty participants completed memory tasks in the two display conditions.
+- Recall was significantly better with the immersive, head-tracked HMD than with the desktop version. This supports an immersion advantage for this task, but does not show that every VR design will improve memory.
+
+Future work:
+The paper points toward studying which palace layouts and memorable environmental features help recall, and whether users should be able to build or personalize their own palaces.

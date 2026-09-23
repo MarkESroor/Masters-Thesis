@@ -1,0 +1,15 @@
+Category tabs: Tab 1
+Title: A Memory Palace for Brain Anatomy and Function Represented in Virtual Reality
+Citation: Ludivine Blais, Hossain Samar Qorbani, Ali Arya, and Jim Davies, 2022, 19th International Conference on Cognition and Exploratory Learning in the Digital Age.
+Source: https://files.eric.ed.gov/fulltext/ED626951.pdf
+PDF in Papers: Yes — A Memory Palace for Brain Anatomy and Function Represented in Virtual Reality.pdf.
+
+Abstract (paraphrased):
+The authors present a WebXR memory-palace experience designed to teach the names, functions, and locations of brain regions. The paper addresses a lack of VR memory-palace applications designed specifically for neuroscience education.
+
+Most important findings:
+- The contribution is primarily the learning-system design and implementation.
+- It does not report a controlled learning-gain or delayed-retention result, so engagement or promise should not be treated as evidence of improved learning.
+
+Future work:
+The authors identify evaluation of actual learning gains and retention over time as the next step.

@@ -1,0 +1,15 @@
+Category tabs: Tab 1
+Title: Learning Languages and Complex Subjects with Memory Palaces
+Citation: Aaron Ralby, Markos Mentzelopoulos, and Harriet Cook, 2017, Immersive Learning Research Network proceedings. DOI: 10.1007/978-3-319-60633-0_18
+Source: https://doi.org/10.1007/978-3-319-60633-0_18
+PDF in Papers: No — the public author-copy link returned 403 and the Westminster repository endpoint returned 405. The full text is visible at https://www.researchgate.net/publication/318147168_Learning_Languages_and_Complex_Subjects_with_Memory_Palaces.
+
+Abstract (paraphrased):
+The paper outlines the theory behind memory palaces and describes early development of Macunx, a VR platform for learning languages and other complex material through spatial structures.
+
+Most important findings:
+- The contribution is a platform concept, design rationale, and early development account, not a controlled trial proving improved retention.
+- The paper identifies end-user testing as necessary to refine the system.
+
+Future work:
+The authors propose testing Macunx with end users and using those results to refine the learning package.

@@ -1,0 +1,15 @@
+Category tabs: Tab 1
+Title: An Immersive Memory Palace: Supporting the Method of Loci with Virtual Reality
+Citation: Jan-Paul Huttner and Susanne Robra-Bissantz, 2017, AMCIS Proceedings.
+Source: https://aisel.aisnet.org/amcis2017/HumanCI/Presentations/20/
+PDF in Papers: No — the AIS landing page is accessible, but the PDF download endpoint returned 403 Forbidden.
+
+Abstract (paraphrased):
+This experiment compared a laptop-displayed virtual environment with an immersive HMD environment as a template for a Method-of-Loci word-learning task. Participants learned five lists of eleven words.
+
+Most important findings:
+- The authors report partial support for their expectation that the HMD group would do better: recall accuracy and use of the instructed mnemonic favored the immersive condition.
+- This is an early, limited comparison of display immersion, not evidence that all VR palace designs outperform ordinary study.
+
+Future work:
+The document proposes user-created palaces, longer-term retention tests, and comparisons of visual and auditory mnemonic cues.

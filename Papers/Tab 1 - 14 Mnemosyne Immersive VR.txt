@@ -1,0 +1,15 @@
+Category tabs: Tab 1
+Title: Mnemosyne: Adapting the Method of Loci to Immersive Virtual Reality
+Citation: Joakim Vindenes, Angelica Ortiz de Gortari, and Barbara Wasson, 2018, Lecture Notes in Computer Science. DOI: 10.1007/978-3-319-95270-3_16
+Source: https://doi.org/10.1007/978-3-319-95270-3_16
+PDF in Papers: No — the author-uploaded ResearchGate PDF and Springer routes were not downloadable in this environment; the full-text record and abstract are available at https://www.researchgate.net/publication/326371344_Mnemosyne_Adapting_the_Method_of_Loci_to_Immersive_Virtual_Reality.
+
+Abstract (paraphrased):
+Mnemosyne is an immersive VR application in which users build personal memory palaces by navigating and placing “memory cubes.” A pilot study examined whether the application could support the Method of Loci.
+
+Most important findings:
+- In the 18-person pilot, participants with stronger spatial reasoning appeared to benefit more. The authors caution that navigation overhead and small sample size make the memory effect hard to interpret.
+- The pilot is exploratory and does not establish broad effectiveness.
+
+Future work:
+The authors propose a larger study, reducing interaction time, pre-testing spatial ability, and increasing the number of items to avoid ceiling effects.

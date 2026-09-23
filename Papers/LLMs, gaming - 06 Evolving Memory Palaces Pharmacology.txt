@@ -1,0 +1,15 @@
+Category tabs: LLMs, gaming
+Title: Pharmacology Retention and Evolving Memory Palaces: How the Method of Loci Can Be Modified for Medical Students’ Pharmacology Learning
+Citation: Zhu et al., 2024, Journal of Pharmacology and Experimental Therapeutics / ASPET meeting poster abstract.
+Source: https://jpet.aspetjournals.org/article/S0022-3565%2824%2917619-7/fulltext
+PDF in Papers: No full paper PDF found. The public item is a conference/poster abstract with limited methods and results.
+
+Abstract (paraphrased):
+The work describes adapting memory palaces to pharmacology so that drug classes, mechanisms, and adverse effects can be organized in an evolving spatial structure as learners add material.
+
+Most important findings:
+- The abstract reports encouraging pharmacology retention and recognition, but it does not provide enough public detail to verify the sample, effect size, or experimental design.
+- Treat the result as preliminary poster evidence, not a fully documented efficacy trial.
+
+Future work:
+The abstract points toward fuller experiments with explicit pre/post and delayed-retention measures, comparison with standard study methods, and adaptation to other medical domains.

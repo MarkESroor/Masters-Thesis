@@ -1,0 +1,15 @@
+Category tabs: Tab 1
+Title: Comparison of AR and VR Memory Palace Quality in Second-Language Vocabulary Acquisition
+Citation: Nicko R. Caluya, Xiaoyang Tian, and Damon M. Chandler, 2023, Electronic Imaging. DOI: 10.2352/ei.2023.35.10.hvei-220
+Source: https://doi.org/10.2352/ei.2023.35.10.hvei-220
+PDF in Papers: Yes — AR vs VR.pdf.
+
+Abstract (paraphrased):
+The paper compares augmented-reality and virtual-reality versions of a Method-of-Loci vocabulary task, alongside a paper-based learning condition.
+
+Most important findings:
+- The paper-based task produced higher vocabulary scores than either AR or VR in this preliminary study.
+- AR and VR scores did not differ significantly, so this study does not establish that either immersive format is better. VR received higher presence/involvement ratings on some measures.
+
+Future work:
+The authors suggest testing more vocabulary items and larger or differently sized learning spaces, and controlling for differences in memorization strategies and other factors that may have influenced the preliminary result.

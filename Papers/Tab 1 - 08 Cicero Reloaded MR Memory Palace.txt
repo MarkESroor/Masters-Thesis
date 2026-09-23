@@ -1,0 +1,15 @@
+Category tabs: Tab 1
+Title: Cicero Reloaded: A Mixed Reality Tool for Enhancing Memorization with the Ciceronian Loci Method
+Citation: Matteo Baggetto, master's thesis, Politecnico di Milano, 2025.
+Source: https://www.politesi.polimi.it/retrieve/4428dd7b-1027-4f5e-a98c-1895b03c0116/2025_07_Baggetto_Tesi_01.pdf
+PDF in Papers: No — the full-thesis repository URL returned an access error. An official executive summary is available at https://www.politesi.polimi.it/retrieve/ec6117d9-aa75-4997-a5b7-ee975fa6c41e/2025_07_Baggetto_Executive%20Summary_02.pdf.
+
+Abstract (paraphrased):
+The thesis adapts the Ciceronian Method of Loci to mixed reality and explores how a tool could help people connect memorized information with familiar physical surroundings. It is a design-and-prototype thesis, not a peer-reviewed efficacy trial.
+
+Most important findings:
+- The work contributes a mixed-reality design and implementation direction for memory-palace use in real spaces.
+- The publicly available summary does not provide verified comparative recall results or enough detail to treat the prototype as proven to improve memory.
+
+Future work:
+The project points toward more in-situ testing, broader content, and personalization in everyday environments. These directions should be checked against the full thesis once it can be obtained.

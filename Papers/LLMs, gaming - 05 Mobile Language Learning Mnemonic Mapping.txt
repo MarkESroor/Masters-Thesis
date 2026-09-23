@@ -1,0 +1,15 @@
+Category tabs: LLMs, gaming
+Title: Mobile Assisted Language Learning and Mnemonic Mapping – The Loci Method Revisited
+Citation: Ikumi Waragai, Marco Raindl, Tatsuya Ohta, and Kosuke Miyasaka, 2016.
+Source: https://files.eric.ed.gov/fulltext/ED572194.pdf
+PDF in Papers: Yes — Mobile Assisted Language Learning and Mnemonic Mapping.pdf.
+
+Abstract (paraphrased):
+The authors present a mobile language-learning environment that lets German learners in Japan map classroom material onto places along their everyday routes, turning a commute into a set of mnemonic loci.
+
+Most important findings:
+- A two-month pilot based largely on self-reports did not show that the system supported the Method of Loci for every learner.
+- Some learners reported greater awareness of their learning and a broader range of strategies, but the evaluation does not establish objective vocabulary gains.
+
+Future work:
+The authors recommend tailoring guidance to different learner routines and testing vocabulary retention and transfer with objective measures.
