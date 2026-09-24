@@ -14,7 +14,7 @@ the included trial scores. This does not resolve source-data quality issues.
 
 ## Build
 
-The entry point is `thesis.tex`. From this directory, run:
+The entry point is `tex/thesis.tex`. From this directory, run:
 
 ```bash
 ./build.sh
@@ -29,15 +29,13 @@ The generated `thesis.pdf` is intentionally ignored by Git. Auxiliary files
 can be removed with:
 
 ```bash
-latexmk -C thesis.tex
+latexmk -C tex/thesis.tex
 ```
 
 ## Structure
 
-- `thesis.tex`: main document and chapter order
-- `GUC_TitlePage.tex`: GUC title and declaration pages
-- `introduction.tex`, `background.tex`, `methodology.tex`,
-  `implementation.tex`, `results.tex`, and `conclusion.tex`: chapter files
+- `tex/`: the main document, title pages, abstract, acknowledgments,
+  chapters, and appendix
 - `bibliography.bib`: bibliography database
 - `images/`: figures and other thesis images
 

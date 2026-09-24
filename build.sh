@@ -7,4 +7,4 @@ cd "$script_dir"
 latexmk -pdf \
   -interaction=nonstopmode \
   -file-line-error \
-  thesis.tex
+  tex/thesis.tex
